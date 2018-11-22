@@ -1,0 +1,27 @@
+#
+#  ______  _____ _____ _         __  __  _____ _           _   
+# |  ____|/ ____/ ____| |       / _|/ _|/ ____| |         | |  
+# | |__  | (___| (___ | |_ __ _| |_| |_| |    | |__   __ _| |_ 
+# |  __|  \___ \\___ \| __/ _` |  _|  _| |    | '_ \ / _` | __|
+# | |____ ____) |___) | || (_| | | | | | |____| | | | (_| | |_ 
+# |______|_____/_____/ \__\__,_|_| |_|  \_____|_| |_|\__,_|\__|
+#                                                              
+#                                                              
+
+#ESStaffChat developed by xbp/ExplosiveStraw - Copyright: ExplosiveStraw 2018. - All rights reserved.
+
+#Plugin Prefix - You can use color codes here. When ESSC sends a message, this prefix will be before all messages.
+prefix: "&cESStaffChat &8>"
+
+#Disabled Message - Prefix + Line below will be sent when a player DISABLES staff chat! Example: ESStaffChat > + Staff chat disabled!
+disabled-message: "&cStaff chat was disabled for you."
+
+#Enabled Message - Prefix + Line below will be sent when a player ENABLES staff chat! Example: ESStaffChat > + Staff chat enabled!
+enabled-message: "&aStaff chat was enabled for you."
+
+#Staff Chat Prefix - This prefix will be used when a player types in the staff chat. For example: "ESSC STAFF ALERT > [message]"
+#to show the player's name use "%player%"
+staff-chat-prefix: "&8(&cSTAFF&8) &7%player%&8:&e"
+
+#Auto Updating - To get the latest updates of ESSC, keep the value below as is.
+auto-update: true

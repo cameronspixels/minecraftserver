@@ -1,0 +1,334 @@
+[20:22:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:22:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:22:16] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:22:16] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:22:16] [main/INFO]: Loaded 0 recipes
+[20:22:16] [Server thread/INFO]: Starting minecraft server version 1.13.1
+[20:22:16] [Server thread/INFO]: Loading properties
+[20:22:16] [Server thread/INFO]: Default game type: SURVIVAL
+[20:22:16] [Server thread/INFO]: Generating keypair
+[20:22:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:22:16] [Server thread/INFO]: Using default channel type
+[20:22:17] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-4228a56 (MC: 1.13.1) (Implementing API version 1.13.1-R0.1-SNAPSHOT)
+[20:22:17] [Server thread/WARN]: Failed to load white-list: 
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
+	at net.minecraft.server.v1_13_R2.ChatDeserializer.a(SourceFile:511) ~[server.jar:git-Bukkit-4228a56]
+	at net.minecraft.server.v1_13_R2.ChatDeserializer.a(SourceFile:527) ~[server.jar:git-Bukkit-4228a56]
+	at net.minecraft.server.v1_13_R2.JsonList.load(JsonList.java:179) ~[server.jar:git-Bukkit-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedPlayerList.E(SourceFile:123) [server.jar:git-Bukkit-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedPlayerList.<init>(SourceFile:30) [server.jar:git-Bukkit-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.init(DedicatedServer.java:195) [server.jar:git-Bukkit-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:676) [server.jar:git-Bukkit-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_144]
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[server.jar:git-Bukkit-4228a56]
+	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1401) ~[server.jar:git-Bukkit-4228a56]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:593) ~[server.jar:git-Bukkit-4228a56]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:425) ~[server.jar:git-Bukkit-4228a56]
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:74) ~[server.jar:git-Bukkit-4228a56]
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:61) ~[server.jar:git-Bukkit-4228a56]
+	at net.minecraft.server.v1_13_R2.ChatDeserializer.a(SourceFile:509) ~[server.jar:git-Bukkit-4228a56]
+	... 7 more
+[20:22:17] [Server thread/ERROR]: Ambiguous plugin name `WorldEdit' for files `plugins\worldedit-bukkit-7.0.0-SNAPSHOT-dist.jar' and `plugins\worldedit-bukkit-6.1.7.3.jar' in `plugins'
+[20:22:21] [Server thread/INFO]: [AutoSaveWorld] Loading AutoSaveWorld v4.15
+[20:22:21] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.22-SNAPSHOT (build 1487)
+[20:22:21] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.0.0-SNAPSHOT;3801-56be153
+[20:22:21] [Server thread/INFO]: [Essentials] Loading Essentials v2.15.0.1
+[20:22:21] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.15.0.1
+[20:22:21] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.15.0.1
+[20:22:21] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.15.0.1
+[20:22:21] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.15.0.1
+[20:22:21] [Server thread/INFO]: [TreeFeller] Loading TreeFeller v1.0
+[20:22:21] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.15.0.1
+[20:22:21] [Server thread/INFO]: [MassiveCore] Loading MassiveCore v2.14.0
+[20:22:21] [Server thread/INFO]: [Factions] Loading Factions v2.14.0
+[20:22:21] [Server thread/INFO]: [EssentialsXMPP] Loading EssentialsXMPP v2.15.0.1
+[20:22:21] [Server thread/INFO]: [CreativeGates] Loading CreativeGates v2.14.0
+[20:22:21] [Server thread/INFO]: [AutoSaveWorld] Enabling AutoSaveWorld v4.15
+[20:22:21] [Server thread/INFO]: [MassiveCore] Enabling MassiveCore v2.14.0
+[20:22:21] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.14.0[0;36;22m] [0;33;1m=== ENABLE START ===[m
+[20:22:21] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.14.0[0;36;22m] [0;33;1m[0;33;1mLoading Cachefile datas...[m
+[20:22:21] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.14.0[0;36;22m] [0;33;1m[0;33;1mLoading Onlineplayer datas...[m
+[20:22:21] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.14.0[0;36;22m] [0;33;1m[0;33;1mLoading Registry datas...[m
+[20:22:21] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.14.0[0;36;22m] [0;33;1m[0;33;1mSaving Cachefile...[m
+[20:22:21] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.14.0[0;36;22m] [0;33;1m[0;33;1mSetup of IdUtil took [0;35;1m40[0;33;1mms.[m
+[20:22:24] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.14.0[0;36;22m] [0;33;1m[0;32;1mIntegration Activated [0;35;1mIntegrationLiabilityAreaEffectCloud[m
+[20:22:26] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.14.0[0;36;22m] [0;33;1m=== ENABLE [0;32;1mCOMPLETE [0;33;1m(Took [0;35;1m4898ms[0;33;1m) ===[m
+[20:22:26] [Server thread/INFO]: Preparing level "world"
+[20:22:26] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[20:22:27] [Server thread/INFO]: Loaded 524 recipes
+[20:22:28] [Server thread/INFO]: Preparing start region for level minecraft:the_end (Seed: -7728826798910685367)
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 4%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 8%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 12%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 16%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 20%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 24%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 28%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 32%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 36%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 40%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 44%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 48%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 52%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 56%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 60%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 64%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 68%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 72%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 76%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 80%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 84%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 88%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 92%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 96%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 100%
+[20:22:28] [Server thread/INFO]: Preparing start region for level minecraft:the_nether (Seed: -7728826798910685367)
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 4%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 8%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 12%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 16%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 20%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 24%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 28%
+[20:22:28] [Server thread/INFO]: Preparing spawn area: 32%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 36%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 40%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 44%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 48%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 52%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 56%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 60%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 64%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 68%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 72%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 76%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 80%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 84%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 88%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 92%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 96%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 100%
+[20:22:29] [Server thread/INFO]: Preparing start region for level minecraft:overworld (Seed: -6799002770057062340)
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 4%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 8%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 12%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 16%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 20%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 24%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 28%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 32%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 36%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 40%
+[20:22:29] [Server thread/INFO]: Preparing spawn area: 44%
+[20:22:30] [Server thread/INFO]: Preparing spawn area: 48%
+[20:22:30] [Server thread/INFO]: Preparing spawn area: 52%
+[20:22:30] [Server thread/INFO]: Preparing spawn area: 56%
+[20:22:30] [Server thread/INFO]: Preparing spawn area: 60%
+[20:22:30] [Server thread/INFO]: Preparing spawn area: 64%
+[20:22:30] [Server thread/INFO]: Preparing spawn area: 68%
+[20:22:30] [Server thread/INFO]: Preparing spawn area: 72%
+[20:22:30] [Server thread/INFO]: Preparing spawn area: 76%
+[20:22:30] [Server thread/INFO]: Preparing spawn area: 80%
+[20:22:30] [Server thread/INFO]: Preparing spawn area: 84%
+[20:22:30] [Server thread/INFO]: Preparing spawn area: 88%
+[20:22:30] [Server thread/INFO]: Preparing spawn area: 92%
+[20:22:30] [Server thread/INFO]: Preparing spawn area: 96%
+[20:22:30] [Server thread/INFO]: Preparing spawn area: 100%
+[20:22:30] [Server thread/INFO]: Time elapsed: 2247 ms
+[20:22:30] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.22-SNAPSHOT (build 1487)
+[20:22:31] [Server thread/ERROR]: [Citizens] v2.0.22-SNAPSHOT (build 1487) is not compatible with Minecraft v1_13_R2 - try upgrading or downgrading Citizens. Disabling.
+[20:22:31] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.22-SNAPSHOT (build 1487)
+[20:22:31] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.0.0-SNAPSHOT;3801-56be153
+[20:22:31] [Server thread/ERROR]: Error occurred while enabling WorldEdit v7.0.0-SNAPSHOT;3801-56be153 (Is it up to date?)
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source) ~[?:1.8.0_144]
+	at java.util.ArrayList.get(Unknown Source) ~[?:1.8.0_144]
+	at com.sk89q.worldedit.extension.platform.PlatformManager.queryCapability(PlatformManager.java:169) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.loadAdapter(WorldEditPlugin.java:136) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onEnable(WorldEditPlugin.java:85) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[server.jar:git-Bukkit-4228a56]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:331) [server.jar:git-Bukkit-4228a56]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402) [server.jar:git-Bukkit-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugin(CraftServer.java:414) [server.jar:git-Bukkit-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.enablePlugins(CraftServer.java:340) [server.jar:git-Bukkit-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.l(MinecraftServer.java:573) [server.jar:git-Bukkit-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:536) [server.jar:git-Bukkit-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:414) [server.jar:git-Bukkit-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.init(DedicatedServer.java:264) [server.jar:git-Bukkit-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:676) [server.jar:git-Bukkit-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_144]
+[20:22:31] [Server thread/INFO]: [Essentials] Enabling Essentials v2.15.0.1
+[20:22:31] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[20:22:31] [Server thread/INFO]: No kits found to migrate.
+[20:22:31] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[20:22:31] [Server thread/INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[20:22:31] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[20:22:31] [Server thread/INFO]: Using locale en_US
+[20:22:31] [Server thread/INFO]: [Essentials] Using Spigot 1.7.10+ ServerListPingEvent iterator
+[20:22:31] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:22:31] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[20:22:31] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.15.0.1
+[20:22:31] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.15.0.1
+[20:22:31] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.15.0.1
+[20:22:32] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[20:22:32] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.15.0.1
+[20:22:32] [Server thread/INFO]: [TreeFeller] Enabling TreeFeller v1.0
+[20:22:32] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.15.0.1
+[20:22:32] [Server thread/INFO]: [Factions] Enabling Factions v2.14.0
+[20:22:32] [Server thread/INFO]: [0;36;22m[[0;36;1mFactions 2.14.0[0;36;22m] [0;33;1m=== ENABLE START ===[m
+[20:22:33] [Server thread/INFO]: [0;36;22m[[0;36;1mFactions 2.14.0[0;36;22m] [0;33;1m[0;32;1mIntegration Activated [0;35;1mIntegrationV18[m
+[20:22:33] [Server thread/INFO]: [0;36;22m[[0;36;1mFactions 2.14.0[0;36;22m] [0;33;1m[0;32;1mIntegration Activated [0;35;1mIntegrationV19[m
+[20:22:33] [Server thread/INFO]: [0;36;22m[[0;36;1mFactions 2.14.0[0;36;22m] [0;33;1m[0;32;1mIntegration Activated [0;35;1mIntegrationSpigot[m
+[20:22:33] [Server thread/INFO]: [0;36;22m[[0;36;1mFactions 2.14.0[0;36;22m] [0;33;1m=== ENABLE [0;32;1mCOMPLETE [0;33;1m(Took [0;35;1m1120ms[0;33;1m) ===[m
+[20:22:33] [Server thread/INFO]: [EssentialsXMPP] Enabling EssentialsXMPP v2.15.0.1
+[20:22:33] [Server thread/WARN]: config broken for xmpp
+[20:22:33] [Server thread/INFO]: [CreativeGates] Enabling CreativeGates v2.14.0
+[20:22:33] [Server thread/INFO]: [0;36;22m[[0;36;1mCreativeGates 2.14.0[0;36;22m] [0;33;1m=== ENABLE START ===[m
+[20:22:33] [Server thread/INFO]: [0;36;22m[[0;36;1mCreativeGates 2.14.0[0;36;22m] [0;33;1m=== ENABLE [0;32;1mCOMPLETE [0;33;1m(Took [0;35;1m100ms[0;33;1m) ===[m
+[20:22:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:22:33] [Server thread/INFO]: Done (7.107s)! For help, type "help"
+[20:22:33] [Server thread/INFO]: [0;33;1mRemoved [0;35;1m0[0;33;1m/[0;35;1m1 (0.00%) [0;33;1mentities from [0;35;1mfactions_mplayer [0;33;1mtook [0;35;1m7177.94ms[0;33;1m.[m
+[20:22:33] [pool-4-thread-4/WARN]: [Essentials] Plugin Essentials v2.15.0.1 generated an exception while executing task 19
+java.lang.NoSuchMethodError: com.earth2me.essentials.storage.BukkitConstructor.constructScalar(Lorg/yaml/snakeyaml/nodes/ScalarNode;)Ljava/lang/Object;
+	at com.earth2me.essentials.storage.BukkitConstructor.access$600(BukkitConstructor.java:19) ~[?:?]
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.construct(BukkitConstructor.java:184) ~[?:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:204) ~[server.jar:git-Bukkit-4228a56]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:193) ~[server.jar:git-Bukkit-4228a56]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:453) ~[server.jar:git-Bukkit-4228a56]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:184) ~[server.jar:git-Bukkit-4228a56]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:434) ~[server.jar:git-Bukkit-4228a56]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.construct(Constructor.java:136) ~[server.jar:git-Bukkit-4228a56]
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.construct(BukkitConstructor.java:214) ~[?:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:204) ~[server.jar:git-Bukkit-4228a56]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:193) ~[server.jar:git-Bukkit-4228a56]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.newInstance(Constructor.java:283) ~[server.jar:git-Bukkit-4228a56]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.constructJavaBean2ndStep(Constructor.java:246) ~[server.jar:git-Bukkit-4228a56]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.construct(Constructor.java:149) ~[server.jar:git-Bukkit-4228a56]
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.construct(BukkitConstructor.java:214) ~[?:?]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:309) ~[server.jar:git-Bukkit-4228a56]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:204) ~[server.jar:git-Bukkit-4228a56]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:193) ~[server.jar:git-Bukkit-4228a56]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:159) ~[server.jar:git-Bukkit-4228a56]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:146) ~[server.jar:git-Bukkit-4228a56]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[server.jar:git-Bukkit-4228a56]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467) ~[server.jar:git-Bukkit-4228a56]
+	at com.earth2me.essentials.storage.YamlStorageReader.load(YamlStorageReader.java:41) ~[?:?]
+	at com.earth2me.essentials.storage.AbstractDelayedYamlFileReader.run(AbstractDelayedYamlFileReader.java:33) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:58) ~[server.jar:git-Bukkit-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [server.jar:git-Bukkit-4228a56]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_144]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_144]
+[20:37:23] [AutoSaveWorld AutoSaveThread/INFO]: [0;34;1mAutoSaving, you may experience momentary issues.[m
+[20:37:23] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+java.lang.RuntimeException: Can't find method saveLevel with params length 0
+	at autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) [AutoSaveWorld.jar:?]
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) [AutoSaveWorld.jar:?]
+[20:37:23] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+java.lang.RuntimeException: Can't find method saveLevel with params length 0
+	at autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) [AutoSaveWorld.jar:?]
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) [AutoSaveWorld.jar:?]
+[20:37:23] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+java.lang.RuntimeException: Can't find method saveLevel with params length 0
+	at autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) [AutoSaveWorld.jar:?]
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) [AutoSaveWorld.jar:?]
+[20:37:23] [AutoSaveWorld AutoSaveThread/INFO]: [0;34;1mAutoSave complete.[m
+[20:52:25] [AutoSaveWorld AutoSaveThread/INFO]: [0;34;1mAutoSaving, you may experience momentary issues.[m
+[20:52:25] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+java.lang.RuntimeException: Can't find method saveLevel with params length 0
+	at autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) [AutoSaveWorld.jar:?]
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) [AutoSaveWorld.jar:?]
+[20:52:25] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+java.lang.RuntimeException: Can't find method saveLevel with params length 0
+	at autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) [AutoSaveWorld.jar:?]
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) [AutoSaveWorld.jar:?]
+[20:52:25] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+java.lang.RuntimeException: Can't find method saveLevel with params length 0
+	at autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) [AutoSaveWorld.jar:?]
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) [AutoSaveWorld.jar:?]
+[20:52:25] [AutoSaveWorld AutoSaveThread/INFO]: [0;34;1mAutoSave complete.[m
+[21:00:16] [User Authenticator #1/INFO]: UUID of player cameron_ is 6e16e40d-4c82-4482-9b7e-94ba0961da3d
+[21:00:19] [Server thread/INFO]: cameron_[/127.0.0.1:59564] logged in with entity id 755 at ([world]-226.61528766143138, 75.5, 2219.8404869365645)
+[21:00:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2831ms or 56 ticks behind
+[21:00:19] [Server thread/WARN]: [Essentials] Task #46 for Essentials v2.15.0.1 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:148) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:109) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$1.run(EssentialsXMPPPlayerListener.java:31) ~[?:?]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftTask.run(CraftTask.java:58) ~[server.jar:git-Bukkit-4228a56]
+	at org.bukkit.craftbukkit.v1_13_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:360) [server.jar:git-Bukkit-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:833) [server.jar:git-Bukkit-4228a56]
+	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:376) [server.jar:git-Bukkit-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:792) [server.jar:git-Bukkit-4228a56]
+	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:695) [server.jar:git-Bukkit-4228a56]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_144]
+[21:00:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2781ms or 55 ticks behind
+[21:01:02] [Server thread/INFO]: cameron_ issued server command: /fly
+[21:01:09] [Server thread/INFO]: cameron_ issued server command: /weather clear
+[21:01:44] [Server thread/INFO]: cameron_ issued server command: /feed
+[21:02:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
+[21:07:28] [AutoSaveWorld AutoSaveThread/INFO]: [0;34;1mAutoSaving, you may experience momentary issues.[m
+[21:07:29] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+java.lang.RuntimeException: Can't find method saveLevel with params length 0
+	at autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) [AutoSaveWorld.jar:?]
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) [AutoSaveWorld.jar:?]
+[21:07:29] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+java.lang.RuntimeException: Can't find method saveLevel with params length 0
+	at autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) [AutoSaveWorld.jar:?]
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) [AutoSaveWorld.jar:?]
+[21:07:29] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+java.lang.RuntimeException: Can't find method saveLevel with params length 0
+	at autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) [AutoSaveWorld.jar:?]
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) [AutoSaveWorld.jar:?]
+[21:07:29] [AutoSaveWorld AutoSaveThread/INFO]: [0;34;1mAutoSave complete.[m
+[21:22:30] [AutoSaveWorld AutoSaveThread/INFO]: [0;34;1mAutoSaving, you may experience momentary issues.[m
+[21:22:31] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+java.lang.RuntimeException: Can't find method saveLevel with params length 0
+	at autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) [AutoSaveWorld.jar:?]
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) [AutoSaveWorld.jar:?]
+[21:22:31] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+java.lang.RuntimeException: Can't find method saveLevel with params length 0
+	at autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) [AutoSaveWorld.jar:?]
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) [AutoSaveWorld.jar:?]
+[21:22:31] [AutoSaveWorld AutoSaveThread/ERROR]: [AutoSaveWorld] Could not dump RegionFileCache
+java.lang.RuntimeException: Can't find method saveLevel with params length 0
+	at autosaveworld.utils.ReflectionUtils.getMethod(ReflectionUtils.java:49) ~[AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.dumpRegionCache(AutoSaveThread.java:135) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.performSave(AutoSaveThread.java:122) [AutoSaveWorld.jar:?]
+	at autosaveworld.features.save.AutoSaveThread.doTask(AutoSaveThread.java:70) [AutoSaveWorld.jar:?]
+	at autosaveworld.utils.Threads$IntervalTaskThread.run(Threads.java:103) [AutoSaveWorld.jar:?]
+[21:22:31] [AutoSaveWorld AutoSaveThread/INFO]: [0;34;1mAutoSave complete.[m

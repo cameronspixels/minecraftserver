@@ -1,0 +1,29 @@
+lastAccountName: cameron_
+timestamps:
+  login: 1537732819373
+  logout: 1533653825331
+  lastteleport: 1533030665180
+ipAddress: 127.0.0.1
+afk: false
+logoutlocation:
+  world: world
+  x: -319.5715235764624
+  y: 73.64532233415655
+  z: 2324.3729691676267
+  yaw: 296.65784
+  pitch: 19.049963
+lastlocation:
+  world: world_nether
+  x: 246.56107108782547
+  y: 61.057803367740696
+  z: 320.8215378449871
+  yaw: 140.69995
+  pitch: 4.0496745
+homes:
+  home:
+    world: world
+    x: 328.2107804337149
+    y: 101.0
+    z: 624.4386132352897
+    yaw: 125.84621
+    pitch: 24.600292

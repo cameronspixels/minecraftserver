@@ -1,0 +1,15 @@
+broadcast:
+  pre: '&9AutoSaving, you may experience momentary issues.'
+  post: '&9AutoSave complete.'
+broadcastbackup:
+  pre: '&9Running AutoBackup, you may experience momentary issues.'
+  post: '&9AutoBackup complete.'
+broadcastpurge:
+  pre: '&9Running AutoPurge, you may experience momentary issues.'
+  post: '&9AutoPurge complete.'
+autorestart:
+  restarting: '&9Server is restarting, reconnect unless specified.'
+  countdown: '&9Server will restart in &d{SECONDS} &9seconds.'
+worldregen:
+  kickmessage: '&9Server is regenerating map, you may experience issues.'
+insufficentpermissions: '&cYou do not have access to that command.'

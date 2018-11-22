@@ -1,0 +1,29 @@
+{
+  "aliasesCg": [
+    "cg",
+    "creativegates",
+    "creativegate"
+  ],
+  "aliasesCgWorld": [
+    "world"
+  ],
+  "aliasesCgWorldList": [
+    "list"
+  ],
+  "aliasesCgWorldDelete": [
+    "delete"
+  ],
+  "aliasesCgConfig": [
+    "config"
+  ],
+  "aliasesCgVersion": [
+    "v",
+    "version"
+  ],
+  "teleportationSoundActive": true,
+  "teleportationMessageActive": true,
+  "permissionDefaultCreate": "TRUE",
+  "permissionDefaultUse": "TRUE",
+  "verboseCreatePermission": true,
+  "verboseUsePermission": true
+}

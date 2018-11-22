@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "name": "Dendron",
+  "description": "The trees that are slow to grow bear the best fruit.",
+  "motd": "It's the little things citizens do. That's what will make the difference. My little thing is planting trees.",
+  "createdAtMillis": 1533208602234,
+  "home": {
+    "w": "world",
+    "lx": -187.5088280814578,
+    "ly": 75.5,
+    "lz": 2223.5101512504634,
+    "p": -2.8500059,
+    "y": 180.1604
+  },
+  "invitations": {},
+  "flags": {
+    "powerloss": false,
+    "peaceful": true,
+    "infpower": true,
+    "friendlyfire": true,
+    "permanent": true
+  }
+}

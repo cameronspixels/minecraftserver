@@ -1,0 +1,28 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 0
+npc:
+  '0':
+    name: Babe
+    uuid: 1e147b52-5bc7-46f8-8f6d-4f57600ae4ea
+    traits:
+      type: PIG
+      location:
+        world: world
+        x: '-170.8983'
+        y: '76.0'
+        z: '2204.8742'
+        yaw: '157.09127807617188'
+        pitch: '0.0'
+      age:
+        age: 0
+        locked: true
+      spawned: true
+      owner:
+        owner: cameron_
+        uuid: 6e16e40d-4c82-4482-9b7e-94ba0961da3d
+    traitnames: owner,mounttrait,location,type,spawned,age
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
